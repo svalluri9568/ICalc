@@ -2,20 +2,20 @@ package com.bootcamp.java.mockitopractise;
 
 public class CalService {
 
-	ICalculator cal;
+	ICalculator calc;
 
 	public int addTwoNumbers(int x, int y) {
 
-		return cal.add(x, y);
+		return calc.add(x, y);
 
 	}
 
 	public ICalculator getCal() {
-		return cal;
+		return calc;
 	}
 
-	public void setCal(ICalculator cal) {
-		this.cal = cal;
+	public void setCal(ICalculator calc) {
+		this.calc = calc;
 	}
 
 
